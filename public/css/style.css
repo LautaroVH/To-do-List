@@ -1,0 +1,126 @@
+:root {
+    font-family: 'Open Sans', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+h1 {
+    color: #003366;
+    font-size: 5rem;
+    font-family: 'Hurricane', cursive;
+
+}
+h2 {
+    font-size: 3rem;
+    font-family: 'Hurricane', cursive;
+
+}
+h3 {
+    font-size: 2rem;
+}
+
+.btn-success {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #336699;
+    border-color: #336699;
+    padding: .2rem;
+    border-radius: .5rem;
+}
+
+.btn-success:hover {
+    background-color:  #003366;
+    border-color:#003366;
+}
+
+.btn-danger {
+    font-family: 'Open Sans', sans-serif;
+    background-color: red;
+    border-color: red;
+    padding: 1rem 1rem;
+    border-radius: .5rem;
+    
+}
+
+.slider {
+    background: url(../img//superior.jpg);
+    min-height: 600px;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.slider h1 {
+    color: white;
+}
+
+.home {
+    position: relative;
+}
+.home .navegacion {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-link.active {
+    border-bottom: 5px solid white;
+}
+blockquote {
+    font-weight: bold;
+    line-height: 2;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    line-height: 2;
+    color: black;
+
+}
+.navegacion {
+    background-color: #ffcc66;
+}
+header .nav a {
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+    color: white;
+}
+footer .nav a,
+.copyright {
+    font-family: 'Staatliches', cursive;
+    font-size: 1.6rem;
+    color: black;
+}
+.listado-iconos {
+    background-color: rgb(245, 245, 245);
+}
+.listado-iconos img {
+    height: 100px;
+}
+
+
+.blockquote-footer {
+    text-align: right;
+    color: #DC135F;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+form {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    font-family: 'Open Sans', sans-serif;
+    padding: 1rem 1rem;
+    border-radius: .5rem;
+}

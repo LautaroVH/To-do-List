@@ -1,0 +1,9 @@
+extends ./layout/index
+block contenido 
+    .container 
+        h1 My lists
+            each listaAlma in todo-list1
+               h2=listaAlma
+            p=JSON.stringify(listaAlma) 
+            .col-1-md-auto
+            a.link(class="btn-danger" href="/" ) Cancel

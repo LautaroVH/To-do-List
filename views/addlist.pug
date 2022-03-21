@@ -1,0 +1,15 @@
+extends ./layout/index
+block contenido 
+    .container 
+           h1 New list created! 
+                h2 Add some tasks!
+           h1= listName
+                span= nuevoNombre
+                .row-2
+                    .col-1-md-auto
+                        form(action="/addlist", method="post") 
+                            input(type='text', name='title', value='')
+                            input(type='text', name='title', value='')
+                            input(type='text', name='title', value='')
+                a.link(href="/mylists-newlist" class="btn-danger") Cancel
+                a.link(href="/mylists1" class="btn-success") Create

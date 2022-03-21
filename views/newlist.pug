@@ -1,0 +1,14 @@
+
+extends ./layout/index
+block contenido 
+    .container 
+           h1 New List!
+                .row-2
+                    h2 List name
+                        .container
+                            form(action="/mylists1", method="POST")
+                                .form-group     
+                                    label(for="lista") List Name 
+                                       input#Listname(type="text", placeholder="List Name", name="lista")
+                                    input#lista.btn.btn-success.btn.block(type="submit" name="lista")
+                                    a.link(href="/mylists1") 
